@@ -64,5 +64,10 @@ namespace PartsUnlimited.Models
 
         [BindNever]
         public List<OrderDetail> OrderDetails { get; set; }
+    
+        public void MyMethod()
+        {
+            return;
+        }
     }
 }
